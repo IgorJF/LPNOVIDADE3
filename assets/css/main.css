@@ -1143,3 +1143,20 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #000000;
 	}
+
+	.etiqueta-image {
+		position: absolute;
+		top: 10px; /* Ajustar a posição superior */
+		right: 10px; /* Ajustar a posição à direita */
+		max-width: 250px; /* Ajustar o tamanho da imagem */
+		rotate: 0.3rad;
+		z-index: 10; /* Garantir que a imagem esteja na frente */
+	}
+
+	@media (max-width: 768px) {	
+		.etiqueta-image {
+			max-width: 100px;
+			top: 5px;
+			right: 5px;
+		}	
+	}
